@@ -15,7 +15,7 @@ After 4 epochs of training on a GPU - Nvidia GeForce RTX 2060 6GB - test accurac
 
 - Metrics: train loss, valid loss, train acc, valid acc, test acc
   
-- Transformations (such as Resize, Normalization etc.) are applied to each set (train, validation, test).
+- Transformations (such as Normalization) are applied to each set (train, validation, test).
 
 Convolutional Neural Network's Structure:
 
