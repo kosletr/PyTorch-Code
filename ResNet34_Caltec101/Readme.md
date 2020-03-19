@@ -36,9 +36,9 @@ Test Accuracy: 83.84%
 ResNet34's Final Fully Connected Layer is replaced by:
 
     Fully Connected Layer 1 | input_size: 512 - output_size: 256
-    Activation Function  1  | ReLU
+    Activation Function   1 | ReLU
     Dropout                 | p = 0.4
     Fully Connected Layer 2 | input_size: 256 - output_size: 102
-    Activation Function  2  | Log Softmax
+    Activation Function   2 | Log Softmax
 
 All the weights of the Layers apart from those listed above, are being frozen during the training process.
